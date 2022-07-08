@@ -166,6 +166,9 @@ z-index: 10;
 .header-items {
     padding-bottom: 62px;
 }
+.recording-inner__description h3 {
+	font-size: 31px;
+}
 }
 @media(max-width:447px){
 .header-items {
@@ -268,10 +271,7 @@ z-index: 10;
 }
 }
 @media(max-width:356px){
-.recording-inner__description h3 {
-   
-    font-size: 34px;
-}
+
 .button-three {
     margin-left: -14px;
     }
