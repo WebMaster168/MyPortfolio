@@ -224,6 +224,7 @@ z-index: 10;
 }
 @media(max-width:370px){
 .specialty-title__inner h2 {
+    line-height: 28px;
     font-size: 18px;
 }
 }
