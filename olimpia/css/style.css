@@ -2374,9 +2374,9 @@ a {
     position: absolute;
     right: 0;
     left: 0;
-    -webkit-transform: translateX(0%);
-        -ms-transform: translateX(0%);
-            transform: translateX(0%);
+    -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+            transform: translateX(-100%);
     -webkit-transition: .4s;
     -o-transition: .4s;
     transition: .4s;
@@ -2402,9 +2402,9 @@ a {
   -webkit-transition: .4s;
   -o-transition: .4s;
   transition: .4s;
-  -webkit-transform: translateX(-100%);
-      -ms-transform: translateX(-100%);
-          transform: translateX(-100%);
+  -webkit-transform: translateX(0%);
+      -ms-transform: translateX(0%);
+          transform: translateX(0%);
   z-index: 0;
 }
 
@@ -2850,9 +2850,9 @@ a {
     line-height: 17px;
   }
   .navigation.visible {
-    -webkit-transform: translateX(-100%);
-        -ms-transform: translateX(-100%);
-            transform: translateX(-100%);
+    -webkit-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+            transform: translateX(0%);
   }
   .navigation {
     margin-top: -21px;
